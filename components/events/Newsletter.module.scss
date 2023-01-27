@@ -1,0 +1,32 @@
+.newsletter {
+  margin: 0 auto;
+  margin-top: 4rem;
+  text-align: center;
+  max-width: 30rem;
+  h2 {
+    margin-bottom: 2rem;
+  }
+  form {
+    display: flex;
+    input {
+      flex: 1;
+      border: none;
+      padding: 0.3rem;
+      border-top-left-radius: 0.5rem;
+      border-bottom-left-radius: 0.5rem;
+    }
+    button {
+      background-color: #2fc57d;
+      border: none;
+      color: #fff;
+      border-top-right-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
+      cursor: pointer;
+      padding: 0.4rem;
+      transition: 0.2s all;
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+  }
+}

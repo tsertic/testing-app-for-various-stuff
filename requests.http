@@ -1,0 +1,40 @@
+###GET
+POST http://localhost:3001/api/comments/e2
+content-type: application/json
+
+{
+    "name":"comment 2",
+    "postId":"e2",
+    "email":"abc@dummy.com",
+    "comment":"lorem ipsum adadbanana",
+    "commentId":"523222323"
+}
+
+###GET
+GET http://localhost:3001/api/comments/e2
+
+###POST email
+POST http://localhost:3001/api/newsletter
+Content-Type: application/json
+
+{
+    "email":"dummy@gmail.com"
+}
+
+###SANITY CATEGORY POST
+POST http://localhost:3000/api/category
+Content-Type: application/json
+
+{
+    "title":"Dinosaurs",
+    "description":"Dinosaurs content posts"
+}
+
+###SANITY Feedback POST
+POST http://localhost:3000/api/feedback
+Content-Type: application/json
+
+{
+    "email":"john@doe.com",
+    "feedback":"Daj se malo potrudite oko novog sadrzaja"
+}

@@ -1,0 +1,38 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  flex: 1;
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+.features {
+  color: gray;
+  font-size: 2rem;
+}
+.primaryColor {
+  text-decoration: underline;
+  text-decoration-color: #861b0c;
+  text-decoration-thickness: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    align-items: start;
+  }
+  .header {
+    margin-bottom: 2rem;
+  }
+  .features {
+    br {
+      display: none;
+    }
+  }
+}
